@@ -1,8 +1,9 @@
 #!/bin/bash
-read -p “enter the filename: ” myfile
-If [ $myfile ]
+read -p "enter the filename: " filename
+if [ -f "$filename" ]
 then
- $myfile
-echo “$myfile ”
+echo "exists"
+else
+echo "not exists"
 fi
 
