@@ -1,0 +1,8 @@
+#!/bin/bash
+read -p “enter the filename: ” myfile
+If [ $myfile ]
+then
+ $myfile
+echo “$myfile ”
+fi
+
